@@ -100,8 +100,8 @@ server.post('/back', (req: Request, res: Response) => {
   // mail details
   let mailOptions = {
     from: 'beep.boop.mailbot@gmail.com',
-    to:   'beep.boop.mailbot@gmail.com',
-    subject: 'varsel email',
+    to:   'io@nettbureau.no',
+    subject: 'Nettbureau case 2022 varsel e-post',
     html: ""
   };
 
