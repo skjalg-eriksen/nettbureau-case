@@ -1,8 +1,14 @@
 # nettbureau case 2022
 
 ## Testing
-for å teste programmet, npm i backenden.
-  
+For å teste prosjektet;
+1. Kjør `npm install` i frontend folderen
+2. Hvis du er på linux kan du bruke `npm run build` ellers må du selv kopiere build folderen over til backend folderen.
+4. Kjør `npm install` backend folderen. 
+5. Så kjører du `npm start` i backend folderen for å starte serveren.
+7. da skal serveren være klar til å teste seg på localhost:5000
+### I zip folderen jeg sender i emailen kommer jeg til å inkludere .env filen som innholder email og app passord til gmail konto-en så den kan testes. det er en helt fersk gmail konto så den er ikke sensitive.
+
   
 ## Frontend
 front enden er skrevet med React og lingner ganske mye på eksempel koden. For å ha to forskjellige sider bruker jeg [react-router-dom](https://www.npmjs.com/package/react-router-dom) til å ha to routes `/` og `/back`.
