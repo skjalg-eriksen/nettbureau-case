@@ -2,8 +2,8 @@
 
 ## Testing
 for å teste programmet, npm i backenden.
-
-\
+  
+  
 ## Frontend
 front enden er skrevet med React og lingner ganske mye på eksempel koden. For å ha to forskjellige sider bruker jeg [react-router-dom](https://www.npmjs.com/package/react-router-dom) til å ha to routes `/` og `/back`.
 
