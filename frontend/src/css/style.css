@@ -39,6 +39,9 @@ input {
 #areacode{
    width: auto;
 }
+textarea {
+   width:100%;
+}
 
 /*
    button css
