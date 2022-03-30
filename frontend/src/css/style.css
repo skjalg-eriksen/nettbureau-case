@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Style: Her kan du gjøre som du vil;
+   ========================================================================== */
+
+section {
+ 	margin-top: 50px; 
+}
+
+label {
+	display: block
+}
+
+legend {
+   font-weight: bold;
+}
+
+/*
+   center content in the App
+*/
+#App{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+}
+
+/*
+   App content
+*/
+section {
+   text-align: left;
+   display: table;
+   box-shadow: 0px 0px 5px 1px;
+   border-radius: 10px;
+   padding: 40px;
+   width: 261px;
+}
+#back_section {
+   text-align: center;
+}
+
+/*
+   button css
+*/
+.my_button {
+   margin-top: 10px;
+   background-color: #6699ff;
+   border: none;
+   border-radius: 3px;
+   box-shadow: 0px 0px 5px 1px #00091a;
+   color: white;
+   padding: 15px 40px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   width: 100%;
+}
+.my_button:hover {
+   background-color: #4d88ff
+}
+.my_button:active {
+  background-color: #3377ff;
+  transform: translateY(-1px);
+}
+
+/*
+   put space between postnr input and poststed text
+*/
+#area_name_span {
+   margin-left: 10px;
+}
+
+/*
+   Error messages under each input field
+*/
+.error{
+   outline: 2px solid red;
+}
+.error_msg{
+   color:red;
+   font-size: small;
+   visibility: hidden;
+}
+.error_status{
+   visibility: visible;
+}
