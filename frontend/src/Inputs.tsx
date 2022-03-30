@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useRef} from 'react';
 import './css/normalize.css';
 import './css/main.css';
 import './css/style.css';
@@ -203,7 +203,7 @@ function Inputs() {
             <br/>
 
             <label>Postnummer:</label>
-            <input  required type="text" name="areacode" maxLength={4} size={4}
+            <input  required id="areacode" type="text" name="areacode" maxLength={4} size={4}
                     placeholder="1234" onInput={handle_areacode_input} ref={areacode_ref}/>
             <span id="area_name_span" ref={area_ref}></span>
             <br/>

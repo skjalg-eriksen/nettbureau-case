@@ -2,17 +2,6 @@
    Style: Her kan du gjøre som du vil;
    ========================================================================== */
 
-section {
- 	margin-top: 50px; 
-}
-
-label {
-	display: block
-}
-
-legend {
-   font-weight: bold;
-}
 
 /*
    center content in the App
@@ -31,11 +20,24 @@ section {
    display: table;
    box-shadow: 0px 0px 5px 1px;
    border-radius: 10px;
+   margin-top: 50px; 
    padding: 40px;
    width: 261px;
 }
 #back_section {
    text-align: center;
+}
+legend {
+   font-weight: bold;
+}
+label {
+	display: block
+}
+input {
+   width: 100%;
+}
+#areacode{
+   width: auto;
 }
 
 /*
