@@ -3,10 +3,10 @@
 ## Testing
 For å teste prosjektet;
 1. Kjør `npm install` i frontend folderen
-2. Hvis du er på linux kan du bruke `npm run build` ellers må du selv kopiere build folderen over til backend folderen.
-4. Kjør `npm install` backend folderen. 
-5. Så kjører du `npm start` i backend folderen for å starte serveren.
-7. da skal serveren være klar til å teste seg på localhost:5000
+2. kjør `npm run build` på linux, `npm run build_win` på windows eller `npm run build_` og kopier `build` folderen over til backend folderen.
+3. Kjør `npm install` backend folderen. 
+4. Så kjører du `npm start` i backend folderen for å starte serveren.
+5. da skal serveren være klar til å teste seg på localhost:5000
 ### I zip folderen jeg sender i emailen kommer jeg til å inkludere .env filen som innholder email og app passord til gmail konto-en så den kan testes. det er en helt fersk gmail konto så den er ikke sensitive.
 
   
